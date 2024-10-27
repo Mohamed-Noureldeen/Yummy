@@ -162,7 +162,7 @@ searchf.addEventListener("input",function(e){
 })
 async function searchByNameOrf(x,y){
   document.querySelector(".content .row ").classList.remove("d-none")
-  let api=await fetch(`https:www.themealdb.com/api/json/v1/1/search.php?${y}=${x}`)
+  let api=await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?${y}=${x}`)
   let resp=await api.json();
   let meal= resp.meals;
   

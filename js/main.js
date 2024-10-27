@@ -123,7 +123,7 @@ getapi()
                 <span class="fs-4 fw-bold text-capitalize pb-3 d-block">Tags :</span>
                 <div class="tag-butns">
                   <button class="btn btn-success"><a href=${date[i].strSource} >Sorce</a></button>
-                  <button class="btn btn-danger"><a href=${date[i].strYoutube}>Youtype</a></button>
+                  <button class="btn btn-danger"><a href=${date[i].strYoutube}>YouTube</a></button>
                 </div>
               </div>
           </div>
@@ -374,7 +374,7 @@ function detailsMeal2(date){
                 <span class="fs-4 fw-bold text-capitalize pb-3 d-block">Tags :</span>
                 <div class="tag-butns">
                   <button class="btn btn-success"><a href=${date[0].strSource} >Sorce</a></button>
-                  <button class="btn btn-danger"><a href=${date[0].strYoutube}>Youtype</a></button>
+                  <button class="btn btn-danger"><a href=${date[0].strYoutube}>YouTube</a></button>
                 </div>
               </div>
           </div>

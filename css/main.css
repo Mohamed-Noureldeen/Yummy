@@ -44,6 +44,9 @@ position: relative;
     position: absolute;
     left: calc(-666px);
 }
+.sideleft .navitems ul li{
+    cursor: pointer;
+}
 .sideleft a{
     color: white;
     text-decoration: none;
